@@ -11,7 +11,6 @@ namespace guess_the_number
             string userInputNumber = Console.ReadLine();
             number = Convert.ToInt32(userInputNumber);
 
-            Console.WriteLine("El número que escribiste fue " + number);
         }
         static void Main(string[] args)
         {

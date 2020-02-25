@@ -20,10 +20,12 @@ namespace guess_the_number
             /// In this method we ask to the user to enter a positive number.
             /// </summary>
         static void UserInput(){
-            Console.WriteLine("Primero, por favor escribe un número positivo");
+            Console.WriteLine();
+            Console.WriteLine("Primero, por favor escribe un número entero positivo");
             Console.WriteLine("Y presiona enter");
             string userInputNumber = Console.ReadLine();
             number = Convert.ToInt32(userInputNumber);
+            Console.WriteLine();
         }
         static void CheckGuessNumber(){
             bool guessedNumberIsCorrect = false;
